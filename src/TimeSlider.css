@@ -1,0 +1,49 @@
+.react_time_range__time_range_container {
+  width: 100%;
+  height: calc(100px + 20px);
+  padding: 50px 30px;
+  background-color: #f5f7fa;
+  overflow: hidden; /* Show Time Tick */
+}
+
+.react_time_range__time_range_container > div {
+  height: 100px;
+}
+
+.react_time_range__rail__inner,
+.react_time_range__rail__outer,
+.react_time_range__track {
+  height: 100px;
+}
+
+.react_time_range__track {
+  height: calc(100% - 24px) !important;
+  background-color: transparent !important;
+  border: #2d2a7b 2px solid !important;
+}
+
+.react_time_range__handle_container {
+  height: calc(100% - 20px);
+  background-color: #2d2a7b;
+}
+
+.react_time_range__handle_container .react_time_range__handle_marker {
+  background-color: #fff;
+}
+
+.react_time_range__handle_wrapper {
+  height: calc(100% - 20px);
+}
+
+.react_time_range__tick_label {
+  margin-top: 50px;
+}
+
+.react_time_range__tick_marker__large {
+  margin-top: calc(50px - 10px);
+}
+
+.dark-area-chart {
+  /* todo use different color */
+  background-color: #191919;
+}
